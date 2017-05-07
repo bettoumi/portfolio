@@ -92,11 +92,44 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+                          Stule moible
    ========================================================================== */
 
+                 /*----------------Style for header-------------------*/
 
 
+.entete
+{
+   
+   height: 80px;
+   position:fixed;
+   border:1px solid red;
+}
+ .entete, #menu
+{
+   background-color: #ba6161;
+}
+.entete h1
+
+{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+#menu li a 
+{
+    color: #160b0b;
+}
+#menu li:hover a
+{
+    color:white;
+} 
+.btn-white 
+{
+     background-color:white;
+}
 
 
 
