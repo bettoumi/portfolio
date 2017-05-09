@@ -153,7 +153,7 @@ textarea {
     
     font-size:20px;
     font-family:'Exo', sans-serif;
-    color: #f5c4c2;
+    color:white;
     line-height: 3em;
     text-align: justify;
     /*box-shadow: 10px 2px 2px #888888;*/
@@ -166,20 +166,20 @@ textarea {
       border: 1px solid transparent;
       height: 60px;
       width: 60px;
-     /* background-color: #f5c4c2;*/
+     background-color: #f5c4c2;
       margin-bottom:  20px  ;
 }
 .icone i
 {
-        color:#f5c4c2; 
-        z-index: 1000;
+        color:black; 
+    
 }
                 /*------- ---Style aboutme section----------*/
 
 #aboutme
 {
     background-color: #ba6161;
-    height: 600px;
+    /*height: 600px;*/
 }
 .aboutright
 {
@@ -200,9 +200,32 @@ textarea {
     border-radius: 30px;
      text-align: center;
     display: block;
-    margin:35px auto 50px auto;
+    margin:50px auto 50px auto;
     
 }
+
+#aboutme .aboutright
+{
+    
+     border:1px solid red;
+ }
+#aboutme .cursus
+{
+    background-color: white;
+    margin: 30px auto;
+    padding: 15px;
+    opacity: 0.5;
+    width: 70%;
+    border: 1px solid transparent;
+    border-radius:8px;
+}
+#aboutme .cursus .titrecursus
+{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 
 
