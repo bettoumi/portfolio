@@ -139,28 +139,41 @@ textarea {
    background-color:#160b0b;
    height: 600px;
    border:1px solid green;
-   
+
 }
-.titre
+.titre1
 {
-    color:#f5c4c2;
+    color:#f5c4c2; 
+     font-size: 40px;
+     font-family: 'Russo One', sans-serif;
+
 }
 .apropos
 {
     
-    font-size:15px;
-    font-family: tahoma;
+    font-size:20px;
+    font-family:'Exo', sans-serif;
     color: #f5c4c2;
-    
+    line-height: 3em;
     text-align: justify;
     /*box-shadow: 10px 2px 2px #888888;*/
 
 }
-#intro .titre1
+.icone
 {
-    color:#f5c4c2; 
+      
+      border-radius: 50%;
+      border: 1px solid transparent;
+      height: 60px;
+      width: 60px;
+     /* background-color: #f5c4c2;*/
+      margin-bottom:  20px  ;
 }
-
+.icone i
+{
+        color:#f5c4c2; 
+        z-index: 1000;
+}
                 /*------- ---Style aboutme section----------*/
 
 #aboutme
