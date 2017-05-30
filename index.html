@@ -26,7 +26,7 @@
 
 
         <!--****************************Start header**************************-->
-     
+       <div class="container-fluid">
         <header class="row  w-100 entete">
          <div class="left col-6 col-sm-6 col-lg-6">
              <h1 class="h-3 mt-4">OUAJA-SAHBIA</h1>
@@ -62,9 +62,10 @@
 
             
         </header>
+     </div>   
                   <!-- Star about Me section -->
        
-    <section class="row text-center " id="intro">
+    <section class="row text-center" id="intro">
         <div class="intro-cover">
         <article class="col-12 col-sm-12 col-lg-12 pt-5 mt-5">
              <p class="titre1 mt-5">Développeuse web junior</p>
@@ -77,19 +78,20 @@
     </section> 
 
     <section class="row" id="aboutme" >
-       <article class="col-12 col-sm-6 col-lg-6 text-center aboutleft mt-5">
+       <article class="aboutleft mt-5">
              <h3>Apropos de moi</h3>
               
        </article>
-       <article class=" col-12 col-sm-6 col-lg-6 aboutright w-100 ">
-           <div class="cursus">
+       
+       <article class="row" id="allcursus">
+           <div class="cursus col-12 col-md-6 col-lg-4">
                <p class="titrecursus">Formation Simplon</p>
                <p>2017(9mois)</p>
                <p>Formation en dévelopement web,dévelopement front-end et back-end grâce aux languagesHTML/CSS, JAASCRIPT, PHP.Ainsi quaux frameworks BOOTSTRAP.
                Utilisant la méthode Agileet de versioning(GIT/GITHUB) lors des la réalisations des projets</p>
               
            </div>
-           <div class="cursus">
+           <div class="col-12 col-md-6 col-lg-4 cursus">
                <p class="titrecursus">Professeur informatique</p>
                <p>2003-2010</p>
                <p>Professeur d'informatique au lycée Argoub mareth , j'enseigne aux élèves : algorithme, language Pascal et bureatique</p>
@@ -103,29 +105,116 @@
 
            
        </article>
-
+    
     </section> 
 
         <!--  Start compétence section-->
    
   <section id="portfolio" class="pt-5">
           <h2 class="text-center">Mes réalistaion</h2>
-        <div class=""> 
-          <article class="reproduction">
-               <ul class="row w-100">  
-                 <li class="col-12 col-sm-6 col-xl-3 mt-3 proj-1"><a href="#">
-                 <img src="img/coachspotif.png" class="img-fluid " alt="coashsportif"> 
-                 </a></li>
-                 <li class="col-12 col-sm-6 col-xl-3 mt-3 proj-2"><img src="img/tatoeur.png" class="img-fluid " alt="coashsportif"> <a href="#"></a></li>
-                 <li class="col-12 col-sm-6 col-xl-3 mt-3 proj-3"><img src="img/blomberie.png" class="img-fluid " alt="coashsportif"> <a href="#"></a></li>
-                 <li class="col-12 col-sm-6 col-xl-3 mt-3 proj-4"><img src="img/Capiscine.png" class="img-fluid " alt="coashsportif"> <a href="#"></a></li>
-               </ul>
+        <div class="mt-5 projets"> 
+          <article class="reproduction row">
+              <figure class="proj col-12 col-md-6 col-xl-3" id="proj1">
+                 <a href="#">
+                 <img src="img/coachspotif.png" class="img-fluid" alt="coashsportif"> 
+                 </a>
+                 <div class="projet-description">
+                   <div class="projet-description-contenu">
+                       <p class="titre-1">OUAJA</p>
+                       <hr class="sous-titre">
+                      <p> Coach-sportif for simplon-2017</p>
+                    </div>
+                 </div>
+              </figure>  
+              <figure class="proj col-12 col-md-6 col-xl-3">
+                 <a href="#">
+                 <img src="img/tatoeur.png" class="img-fluid" alt="sitetatoeur"> 
+                 </a>
+                 <div class="projet-description">
+                   <div class="projet-description-contenu">
+                       <p class="titre-1">OUAJA</p>
+                       <hr class="sous-titre">
+                      <p> Tatoeur for simplon-2017</p>
+                    </div>
+                 </div>
+              </figure>   
+              <figure class="proj col-12 col-md-6 col-xl-3">
+                 <a href="#">
+                 <img src="img/piscine2.png" class="img-fluid" alt="sitepiscine">  
+                 </a>
+                 <div class="projet-description">
+                   <div class="projet-description-contenu">
+                       <p class="titre-1">OUAJA</p>
+                       <hr class="sous-titre">
+                       <p> Vente piscine for simplon-2017</p>
+                    </div>
+                 </div>
+              </figure>   
+              <figure class="proj col-12 col-md-6 col-xl-3">
+                 <a href="#">
+                   <img src="img/blomberie.png" class="img-fluid" alt="siteblomberie">
+                   <div class="projet-description">
+                   <div class="projet-description-contenu">
+                       <p class="titre-1">OUAJA</p>
+                       <hr class="sous-titre">
+                       <p>Plomberie for simplon-2017</p>
+                    </div>
+                 </div>
+                 </a>
+              </figure>    
+                 
           </article>
-          <article class="creation">
-            <h3>CREATION</h3>
-            <div class="images-projets">
-              
-            </div>
+          <article class="creation row">
+            <figure class="proj col-12 col-md-6 col-xl-3">
+                 <a href="#">
+                 <img src="img/airbnb.png" class="img-fluid" alt="siteairbnb"> 
+                 </a>
+                 <div class="projet-description">
+                   <div class="projet-description-contenu">
+                       <p class="titre-1">OUAJA</p>
+                       <hr class="sous-titre">
+                      <p> Reproduction Airbnb for simplon-2017</p>
+                    </div>
+                 </div>
+              </figure>  
+              <figure class="proj col-12 col-md-6 col-xl-3">
+                 <a href="#">
+                 <img src="img/archiduchesse.png" class="img-fluid" alt="siteleboncoin">
+                </a>
+                  <div class="projet-description">
+                   <div class="projet-description-contenu">
+                       <p class="titre-1">OUAJA</p>
+                       <hr class="sous-titre">
+                       <p>Reproduction Archiduchesse  for simplon-2017</p>
+                    </div>
+                 </div>
+                
+              </figure>   
+              <figure class="proj col-12 col-md-6 col-xl-3">
+                 <a href="#">
+                 <img src="img/leboncoin.png" class="img-fluid" alt="sitepiscine">  
+                 </a>
+                  <div class="projet-description">
+                   <div class="projet-description-contenu">
+                       <p class="titre-1">OUAJA</p>
+                       <hr class="sous-titre">
+                       <p>Reproduction Leboncoin  for simplon-2017</p>
+                  </div>
+                  </div>
+              </figure>   
+              <figure class="proj col-12 col-md-6 col-xl-3">
+                 <a href="#">
+                 <img src="img/princing.png" class="img-fluid" alt="siteblomberie">  
+                 </a>
+                  <div class="projet-description">
+                   <div class="projet-description-contenu">
+                       <p class="titre-1">OUAJA</p>
+                       <hr class="sous-titre">
+                       <p>Reproduction Quiver(projet en group)  for simplon-2017</p>
+                    </div>
+                  </div>  
+              </figure>    
+            
             
           </article>
         </div>
