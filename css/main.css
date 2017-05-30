@@ -361,7 +361,26 @@ textarea {
     transition: all 0.8s;
     opacity:1;
 }
-
+.compet-contact
+{
+  background-color:  rgba(245,240,240,0.5);
+}
+.progress
+{
+   background-color: black;
+   margin: 10px 10px;
+    border-radius: 5px;
+}
+.progress-bar
+{
+ 
+  height: 1.8rem;
+  
+  font-family: 'Alegreya', serif;
+  background-color: rgb(85,0,0);
+  padding-top: 0.5rem;
+  font-size: 15px;
+}
 
 
 
