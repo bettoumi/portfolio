@@ -192,7 +192,7 @@ textarea {
      background-color: #f5c4c2;
       margin-bottom:  20px  ;
 }
-.icone i
+.icone a i
 {
         color:black; 
     
@@ -382,7 +382,10 @@ textarea {
   font-size: 15px;
 }
 
-
+.footer-portfolio
+{
+  background-color: black;
+}   
 
 
 
