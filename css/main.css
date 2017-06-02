@@ -346,7 +346,10 @@ textarea {
     transition: all 0.8s;
     opacity:1;
 }
-                         /*---------------Style Competence section-----------------*/
+
+
+
+                         /*---------------Style Contact section-----------------*/
 
 
 
@@ -368,7 +371,7 @@ textarea {
   font-size: 20px;
   font-family: 'Alegreya', serif;
   color: black;
-  
+
 }
  
 
@@ -391,11 +394,72 @@ textarea {
     
 }
 
+                        /*---------------Style Formulaire section-----------------*/
+
+::-moz-placeholder 
+{ 
+  
+  font-size: 15px;
+   font-style: italic;
+ 
+ }
+ .formulaire .form-group
+ {
+    border-bottom:  1px solid rgb(119,119,119);
+ }
+.formulair .form-group input
+{
+   transition: all 0.9s ease-in-out;
+}   
+.formulaire .btn
+{
+  background-color: rgb(221,149,167);
+  color: black;
+  width: 150px;
+  transition: all 1s ease-in;
+
+}
+.form-control
+{
+  background-color: rgb(204,204,204);
+  border:none;
+
+}
+.formulaire .form-group input:focus
+ {
+    transform: translate(-10px, -10px);
+    background-color: rgb(204,204,204);
+
+ }
+.formulaire .form-group textarea:focus
+ {
+    transform: translate(-10px, -10px);
+    background-color: rgb(204,204,204);
+
+ }
+
+
+.formulaire .form-group input:focus .form-group
+{
+
+  border-bottom: 1px solid  black;
+}
+.formulaire .btn:hover
+{
+  background-color: rgb(85,0,0);
+  color: white;
+}
+
 
 .footer-portfolio
 {
   background-color: black;
+  height: 200px;
 }   
+
+
+
+
 
 
  /* ==========================================================================
@@ -425,6 +489,13 @@ textarea {
 
 }
 
+.reseau
+{
+  margin: 30px;
+
+}
+
+
 
  /* ==========================================================================
                         STYLE FOR DESKTOP
@@ -438,6 +509,12 @@ textarea {
    top:0%; 
    padding: 0px 10px;
  }
+
+ .reseau
+{
+  margin: 10px;
+
+}
     
 }
 
