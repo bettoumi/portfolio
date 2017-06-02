@@ -182,21 +182,7 @@ textarea {
     padding-right: 5px;
     padding-left: 5px;
 }
-.icone
-{
-      
-      border-radius: 50%;
-      border: 1px solid transparent;
-      height: 60px;
-      width: 60px;
-     background-color: #f5c4c2;
-      margin-bottom:  20px  ;
-}
-.icone a i
-{
-        color:black; 
-    
-}
+
                 /*------- ---Style aboutme section----------*/
 
 #aboutme
@@ -297,7 +283,7 @@ textarea {
   bottom: -50px;
   background-color: rgba(11,11,11,.9); 
   overflow: hidden;
-  /*transform: translate(-50%, -50%);*/
+  
 }
 
 .projet-description .projet-description-contenu
@@ -311,7 +297,6 @@ textarea {
   top: 5%;
    transition: all 0.8s  ease-in;
   transform: translateY(0);
-  /*opacity: 0;*/
    color:#DD95A7;
    font-size: 18px;
    font-family: 'Alegreya', serif;
@@ -321,12 +306,12 @@ textarea {
 }
 .projet-description-contenu h4
 {
- 
   
   text-transform: uppercase;
   font-weight: 400;
   margin: 0;
  color:#DD95A7;
+
  }
 
 .titre-1
@@ -361,32 +346,56 @@ textarea {
     transition: all 0.8s;
     opacity:1;
 }
-.compet-contact
+                         /*---------------Style Competence section-----------------*/
+
+
+
+
+
+.contact
 {
-  background-color:  rgba(245,240,240,0.5);
-}
-.progress
-{
-   background-color: black;
-   margin: 10px 10px;
-    border-radius: 5px;
-}
-.progress-bar
-{
- 
-  height: 1.8rem;
-  
+  background-color: rgb(204,204,204);
   font-family: 'Alegreya', serif;
-  background-color: rgb(85,0,0);
-  padding-top: 0.5rem;
-  font-size: 15px;
 }
+.titrecontact
+{
+  height: 150px;
+  background-color: rgb(85,0,0);
+  color: white;
+}
+ .element
+{
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+  color: black;
+  
+}
+ 
+
+.icone
+{
+      
+      border-radius: 50%;
+      border: 1px solid transparent;
+      height: 50px;
+      width: 50px;
+       background-color:rgb(85,0,0) ;
+      margin-bottom:  20px  ;
+
+}
+.icone a i
+{
+        color: white;
+        margin-top: 10px;
+       font-size: 22px; 
+    
+}
+
 
 .footer-portfolio
 {
   background-color: black;
 }   
-
 
 
  /* ==========================================================================
