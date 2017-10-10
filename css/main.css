@@ -318,7 +318,7 @@ textarea {
   top: 5%;
    transition: all 0.8s  ease-in;
   transform: translateY(0);
-   color:#F27B27;
+   color:rgb(242,195,53);
    font-size: 18px;
    font-family: 'Alegreya', serif;
     letter-spacing: .2em;
