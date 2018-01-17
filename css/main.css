@@ -102,9 +102,13 @@ textarea {
 {
  background-color:#F2C335;
 }  
+.photos
+{
+   border-radius: 50%; 
+}
 
-  #menu1
 
+ #menu1
 {
   
    opacity: 0.9;
