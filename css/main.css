@@ -175,6 +175,32 @@ textarea {
      /*font-family: 'Russo One', sans-serif;*/
 
 }
+#portfolio .realise-titre
+{
+  color:rgb(244,243,242);
+}
+
+#intro span{
+  margin: 0;
+  padding: 0;
+}
+
+.end-left{
+  margin-left: -235px;
+}
+
+.end-right{
+  margin-right: -117.5px;
+}
+.outline{
+  position: absolute;
+  top: 20px;
+}
+
+
+
+
+
 .titre1
 {
    font-family: 'Noto Serif', cursive;
@@ -185,7 +211,12 @@ textarea {
 .titre2
 {
   font-family: 'Noto Serif', sans-serif;
-  color: black;
+  color: white;
+}
+.titlesection
+{
+
+  font-family: 'Roboto Slab', serif;
 }
 .apropos
 {
@@ -270,7 +301,7 @@ textarea {
 }
 #portfolio h2, #competence h2
 {
-  color: rgb(243,200,72);
+  color: #F2C335;
 }
 
 .projets
@@ -396,10 +427,10 @@ textarea {
 }
 .titrecontact
 {
-  height: 150px;
-  background-color: rgb(242,195,53);
+  /*height: 150px;*/
+  
   color: black;
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
 }
  .element
 {
@@ -409,7 +440,6 @@ textarea {
 
 }
  
-
 .icone
 {
       
