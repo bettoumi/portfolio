@@ -175,6 +175,15 @@ textarea {
      /*font-family: 'Russo One', sans-serif;*/
 
 }
+
+/*Titres animation*/
+
+#mainTitle, #subTitle {
+  opacity: 0;
+  -webkit-transition: opacity 2s; /* Safari */
+  transition: opacity 2s;
+}
+
 #portfolio .realise-titre
 {
   color:rgb(244,243,242);
