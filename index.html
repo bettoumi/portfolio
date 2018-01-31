@@ -8,7 +8,7 @@
         <meta name="viewport" content="width device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link href="https://fonts.googleapis.com/css?family=Permanent+MarkerExo|Russo+One|Alegreya|Noto+Serif|Asap+Condensed|Lobster|Roboto+Slab"  rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Permanent+MarkerExo|Russo+One|Alegreya|Noto+Serif|Asap+Condensed|Amatic+SC:700|Roboto+Slab"  rel="stylesheet"> 
         <!-- Place favicon.ico in the root directory -->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- <link rel="stylesheet" href="css/normalize.css"> -->
@@ -26,35 +26,35 @@
 
 
         <!--**********************Start header**********************-->
-      
-         <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top pl-1 pr-0" >
+     
+         <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top pl-1 " >
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand" href="#">OUAJA</a>
+                    <a class="navbar-brand  subFont" href="#">OUAJA</a>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav">
                         <a class="nav-item nav-link " href="#portfolio">Mes réalisations</a>
                         <a class="nav-item nav-link" href="#competence">Mes compétences</a>
+                        <a class="nav-item nav-link" href="#aboutme">A propos</a>
                         <a class="nav-item nav-link" href="#contact">Contact</a>
                         <a class="nav-item nav-link" href="doc/CV_sahbia_ouaja.pdf">CV</a>
                         
                       </div>
                     </div>
         </nav>
-
-              
+  
               
              
        
     
                   <!-- Star intro Me section -->
- <div class="intro-cover" >   
+ <div class="intro-cover mr-0 " >   
     <section class="d-flex  flex-column justify-content-center   align-items-center" id="intro">
         
             <p class="mt-5 titre1" id="mainTitle">OUAJA SAHBIA</p>
              
-            <p class="titre2  text-center mt-2" id="subTitle">Développeuse web junior </p>
+            <p class="titre2  text-center mt-2 subFont" id="subTitle">Développeuse web junior </p>
             
         
     </section> 
@@ -67,7 +67,7 @@
    <div class="row pt-5 pb-5">
           <h2 class="text-center col-12 titlesection">Mes réalisations</h2>
         <div class="mt-5 projets col-12"> 
-                  <h2 class="realise-titre text-center mb-5">Projets avec PHP</h2>
+                  <h2 class="realise-titre subFont mb-5 ml-3">Projets avec PHP</h2>
           <article class="reproduction row">
            <a  class="col-12 col-md-6 col-xl-3" href="https://github.com/bettoumi/bookCatalog">
               <figure class="proj " id="proj1">
@@ -130,7 +130,7 @@
 
        
        <!-- project witdh javascript et jquery -->
-        <h2 class="realise-titre text-center mt-5 mb-5">Projets avec JavaScript</h2>
+        <h2 class="realise-titre subFont ml-3 mt-5 mb-5">Projets avec JavaScript</h2>
         <article class="creation mt-3 mb-3 row">
         <a href="https://github.com/bettoumi/slide" class="col-12 col-md-6 col-xl-3">
             <figure class="proj">
@@ -192,7 +192,7 @@
               </a>
             
           </article>
-                     <h2 class="realise-titre text-center mt-5 mb-5">Projets avec HTML/CSS </h2>
+                     <h2 class="realise-titre subFont ml-3 mt-5 mb-5">Projets avec HTML/CSS </h2>
           <article class="reproduction row">
            <a  class="col-12 col-md-6 col-xl-3" href="https://github.com/bettoumi/coachsportif">
               <figure class="proj " id="proj1">
@@ -253,7 +253,7 @@
              </a>     
           </article>
 
-                  <h2 class="realise-titre text-center mt-5 mb-5">Reproduction des Sites</h2>
+                  <h2 class="realise-titre subFont ml-3 mt-5 mb-5">Reproduction des Sites</h2>
           <article class="creation mt-3 row">
           <a href="https://github.com/bettoumi/airbnb" class="col-12 col-md-6 col-xl-3">
             <figure class="proj">
@@ -325,46 +325,63 @@
 
                               <!-- Star aboutme Me section -->
 
-    <section class="pb-5" id="competence" >
+<section class ="pt-5 pb-5"  id="aboutme" >
+    <h2 class="text-center titlesection mb-5 mt-3""> A propos </h2>
+    <div class="container"> 
+       <p class="ml-3  aboutmetext ">
+       Diplômé en informatique, j'ai enseigné l'algorithmie 8 ans, 
+       j'ai suivi  une formation de 9 mois en  développement web chez Simplon roubaix, afin d'apprendre HTML/CSS, JAVASCRIPT et PHP.
+       Aujourd'hui je cherche à intégrer une entreprise du web qui me permettra de continuer ma montée en compétence sur les nouvelles technologies acquises lors ma formation.
+      </p>
+    </div>
+  
+</section>
+
+
+
+                              <!-- Star competence section -->
+
+    <section class="pb-5 pt-5" id="competence" >
              
                 <h2 class="text-center mb-5 titlesection">Compétences</h2>
-           <div class="row text-center mb-3">
-             <div class="comp col-12 col-md-6 col-lg-3">
-                  <i class="fa fa-laptop colicone  fa-3x" aria-hidden="true"> </i><span class="comptitre">PHP</span>
+            <div class="container">    
+             <div class="row text-center mb-3">
+               <div class="comp col-12 col-md-6 col-lg-3">
+                    <i class="fa fa-laptop colicone   mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">PHP</span>
 
-             </div>
-              <div class="comp col-12 col-md-6 col-lg-3">
-                  <i class="fa fa-laptop colicone fa-3x" aria-hidden="true"> </i><span class="comptitre">JAVA-SCRIPT</span>
+               </div>
+                <div class="comp col-12 col-md-6 col-lg-3">
+                    <i class="fa fa-laptop colicone   mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">JAVASCRIPT</span>
 
-             </div>
-              <div class=" comp col-12 col-md-6 col-lg-3">
-                  <i class="fa fa-laptop colicone  fa-3x" aria-hidden="true"> </i><span class="comptitre">JQUERY</span>
+               </div>
+                <div class=" comp col-12 col-md-6 col-lg-3">
+                    <i class="fa fa-laptop colicone   mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">JQUERY</span>
 
-             </div>
-              <div class=" comp col-12 col-md-6 col-lg-3">
-                  <i class="fa fa-laptop colicone  fa-3x" aria-hidden="true"> </i><span class="comptitre">HTML5</span>
+               </div>
+                <div class=" comp col-12 col-md-6 col-lg-3">
+                    <i class="fa fa-laptop colicone   mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">HTML5</span>
 
+               </div>
              </div>
              
            </div>
-           <div class="row text-center">
-             <div class=" comp col-12 col-md-6 col-lg-3">
-                  <i class="fa fa-laptop colicone   mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">BOOTSTRAP4</span>
+          <div class="container"> 
+                 <div class="row text-center">
+                   <div class=" comp col-12 col-md-6 col-lg-4">
+                        <i class="fa fa-laptop colicone   mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">BOOTSTRAP4</span>
 
-             </div>
-              <div class="  comp col-12 col-md-6 col-lg-3">
-                  <i class="fa fa-laptop colicone  mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">CSS3</span>
+                   </div>
+                    <div class="  comp col-12 col-md-6 col-lg-4">
+                        <i class="fa fa-laptop colicone  mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">CSS3</span>
 
-             </div>
-              <div class=" comp col-12 col-md-6 col-lg-3">
-                  <i class="fa fa-laptop colicone mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">METHODE AGILE</span>
+                   </div>
+                    
+                    <div class=" comp col-12 col-md-6 col-lg-4">
+                        <i class="fa fa-laptop colicone  mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">GIT/GITHUB</span>
 
-             </div>
-              <div class=" comp col-12 col-md-6 col-lg-3">
-                  <i class="fa fa-laptop colicone  mr-2 fa-3x" aria-hidden="true"> </i><span class="comptitre">GIT/GITHUB</span>
-
-             </div>
-             
+                   </div>
+                   
+                 </div>
            </div>
     
     </section>   
@@ -382,6 +399,7 @@
   <section class="contact pb-5" id="contact">
     
     <h2 class="text-center titrecontact  titlesection pt-5">Me contacter</h2>
+    <div class="container">
     <div class="row  pt-5 ml-2 mr-2">
          <article class="col-12 col-md-12 col-lg-12 reseau">
            <div class="row">
@@ -460,7 +478,7 @@
          
         
       
-    
+  </div>
 </section>
    
 

@@ -95,6 +95,17 @@ textarea {
                           Stule moible
    ========================================================================== */
 
+                 
+/*Utilities*/
+
+.subFont {
+  font-family: 'Amatic SC', cursive;
+}
+body
+{
+  padding: 0;
+}
+
                  /*----------------Style for header-------------------*/
 
 
@@ -102,9 +113,9 @@ textarea {
 {
  background-color:#F2C335;
 }  
-.photos
+.navbar-brand
 {
-   border-radius: 50%; 
+  font-size: 2em; 
 }
 
 
@@ -186,7 +197,8 @@ textarea {
 
 #portfolio .realise-titre
 {
-  color:rgb(244,243,242);
+  color: #F2C335;
+  font-size: 2em;
 }
 
 #intro span{
@@ -219,8 +231,8 @@ textarea {
 }
 .titre2
 {
-  font-family: 'Noto Serif', sans-serif;
   color: white;
+  font-size: 4em;
 }
 .titlesection
 {
@@ -247,13 +259,14 @@ textarea {
 
 #aboutme
 {
-    background-color:rgb(143,138,141);
+    background-color:white;
     /*height: 600px;*/
 }
-#aboutme .aboutleft
+.aboutmetext
 {
-  margin: auto;
+   font-size: 1.5em;
 }
+
 
 .titre3
 {
@@ -310,7 +323,7 @@ textarea {
 }
 #portfolio h2, #competence h2
 {
-  color: #F2C335;
+  color: white;
 }
 
 .projets
@@ -431,7 +444,7 @@ textarea {
 
 .contact
 {
-  background-color: rgb(204,204,204);
+  background-color: white;
   font-family: 'Alegreya', serif;
 }
 .titrecontact
