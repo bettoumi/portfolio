@@ -264,7 +264,8 @@ body
 }
 .aboutmetext
 {
-   font-size: 1.5em;
+   font-size: 1em;
+   text-align: center;
 }
 
 
@@ -370,15 +371,15 @@ body
   width: 100%;
   left: 0;
   right: 0;
-  padding: 20px 40px;
+  padding: 10px 40px;
   text-align: center;
   top: 5%;
    transition: all 0.8s  ease-in;
   transform: translateY(0);
    color:rgb(242,195,53);
-   font-size: 18px;
+   font-size: 12px;
    font-family: 'Alegreya', serif;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
 
 
 }
@@ -541,7 +542,7 @@ body
 .footer-portfolio
 {
   background-color: black;
-  height: 200px;
+  height: 50px;
   color: white;
 }   
 
@@ -583,7 +584,11 @@ body
 
 }
 
+.projet-description .projet-description-contenu
+{
 
+font-size: 18px;
+}
 
  /* ==========================================================================
                         STYLE FOR DESKTOP
